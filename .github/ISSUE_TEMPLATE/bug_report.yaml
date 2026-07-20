@@ -38,7 +38,7 @@ body:
     validations:
       required: true
 
-  - type: dropdown
+  - type: textarea
     attributes:
       label: Operating System
       description: Information about the operating system the issue occurs on.
