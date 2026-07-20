@@ -5,6 +5,7 @@ body:
   - type: markdown
     attributes:
       value: |
+        
         Thanks for taking the time to fill out this bug report!
 
         Before submitting, please make sure you've searched existing issues:
@@ -38,16 +39,25 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: dropdown
     attributes:
       label: Operating System
       description: Information about the operating system the issue occurs on.
-      value: |
-        - OS: [e.g., Windows, macOS, Ubuntu, Other]
-        - Version/Kernel: [e.g., 11, 14.5, 6.8, Custom]
-        - Architecture: [e.g., x86_64, ARM64]
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other (Please specify below)
     validations:
       required: true
+
+  - type: input
+    attributes:
+      label: Specific OS Version / Distro
+      description: If you selected "Other", or have specific version info (e.g., Ubuntu 24.04, Windows Insider Build), type it here.
+      placeholder: E.g., Arch Linux, FreeBSD, iOS 19
+    validations:
+      required: false
 
   - type: textarea
     attributes:
