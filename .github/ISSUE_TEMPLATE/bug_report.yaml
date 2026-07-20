@@ -4,8 +4,8 @@ labels: ['bug']
 body:
   - type: markdown
     attributes:
-      value: |
-        |
+      value: ||
+      
         Thanks for taking the time to fill out this bug report!
 
         Before submitting, please make sure you've searched existing issues:
