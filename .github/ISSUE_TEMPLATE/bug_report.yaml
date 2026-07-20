@@ -20,6 +20,19 @@ Steps to reproduce the behavior:
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
+type: dropdown
+    attributes:
+      label: 💻 Operating System
+      description: Information about the operating system the issue occurs on.
+      placeholder: Windows 11 26100.3037 / macOS 15.1 (24B83) / Linux 6.13.1
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - Other (Specify in notes)
+    validations:
+      required: true
+
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
