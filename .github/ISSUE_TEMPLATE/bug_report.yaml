@@ -55,7 +55,7 @@ body:
     attributes:
       label: Specific OS Version / Distro
       description: If you selected "Other", or have specific version info (e.g., Ubuntu 24.04, Windows Insider Build), type it here.
-      placeholder: E.g., Arch Linux, FreeBSD, iOS 19
+      placeholder: E.g., Arch Linux, Debian, Windows Enterprise
     validations:
       required: false
 
